@@ -79,6 +79,7 @@ Software Testing - Base Course (Svyatoslav Kulikov) - 3rd edition - RU:
 
 
 
+
 Упрощенная классификация тестирования.
 
 1. По запуску кода на исполнение.
