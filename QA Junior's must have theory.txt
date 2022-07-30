@@ -20,6 +20,7 @@ https://www.youtube.com/watch?v=3DoeLbrYuzY
 https://www.youtube.com/watch?v=Ee4WAVlxDq0
 
 
+
 1) Жизненный цикл ПО и методологии разработки.
 
 2) Тестирование требований.
