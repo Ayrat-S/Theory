@@ -1,0 +1,266 @@
+Компилирование информации о техниках тест-дизайна по книге Куликова "Тестирование программного обеспечения. Базовый курс. 3-е издание."
+
+*Задача №1 - конспектировать видеоурок.
+*Задача №2 - провести сравнительный анализ книги и видеоурока (чтобы в итоге сделать компилированную сжатую информацию по техникам тест-дизайна).
+*Задача №3 - сделать компилированную сжатую информацию по техникам тест-дизайна: Видеоурок Леши Маршала + книга Куликова.
+
+*Задача №1
+1. Чтобы найти по книге нужную информацию для последующего изучения, нужно ниже прописать исходные понятия из других источников.
+1.1. Первым выбран видеоурок Леши Маршала:
+Техники тест-дизайна / Урок 17 / Тестировщик с нуля
+https://www.youtube.com/watch?v=i7PkPzRU6EI
+Видео скачано в адрес:
+D:\TESTING\Другие авторы\Леша_Маршал\1_Тестирование_ПО_Профессиональный курс
+
+
+**************************************
+КОМПИЛЯЦИЯ ВИДЕОУРОКА И КНИГИ (см. сразу 102стр => Рисунок 2.3.k)
+Техники тест-дизайна по Маршалу:
+   - *Исчерпывающее тестирование 3:22
+   - *Позитивные / Негативные 4:05
+   - *Валидация / Верификация 4:27
+   
+   - Классы Эквивалентности 5:30   ===>>> Поиск по слову "эквивалентност" в книге:
+2.7.2. Классы эквивалентности и граничные условия - 3стр
+Класс эквивалентности (equivalence class347) - 234стр
+   
+   - Граничные занчения 7:54   ===>>> Поиск по слову "граничн" в книге:
+2.7.2. Классы эквивалентности и граничные условия - 3стр
+Тестирование на основе граничных условий (boundary value analysis229) - 92стр
+На основе граничных условий - 100стр
+На основе граничных условий - 102стр
+Тестирование на основе граничных условий{92} - 109стр
+Метрику покрытия граничных условий - 213стр
+Но эту проблему мы рассмотрим в следующей главе, посвящённой классам эквивалентности и граничным условиям{234}. - 232стр
+Граничное условие (border condition, boundary condition348) - 234стр
+
+   - Таблица принятия решений 11:10   ===>>> Поиск по слову "принятие" в книге:
+Тестирование по таблице принятия решений - 96-97стр
+По таблице принятия решений - 100стр
+Техники тестирования => По таблице принятия решений - 102стр
+Тестирование по таблице принятия решений{96} - 110стр
+
+   - Сценарная 13:35   ===>>> Поиск по слову "сценари" в книге:
+Техники тестирования => На основе сценариев - 102стр
+Пользовательские сценарии (сценарии использования) - 143-144стр
+
+
+   - ADHOC 14:27   ===>>> Поиск по слову "hoc" в книге:
+2.3.2.11. Классификация по степени формализации ===>>> Свободное (интуитивное) тестирование (ad hoc testing157) - 82стр
+Возможно, это Техники тестирования => На основе случайных данных - 102стр (но это не точно)
+Таблица 2.3.d — Виды и техники тестирования в контексте методов белого и чёрного ящиков ===>>> 
+Ad hoc testing - 108стр
+
+   - Предугадывание ошибок 16:13
+Тестирование предугадыванием ошибок (error guessing223) - 91стр
+Техники тестирования => Предугадывание ошибок - 102стр
+
+
+   - Попарное тестирование 17:11 (уникальная пара)
+=========================>>>>>>> ОСТАНОВИЛСЯ ЗДЕСЬ 27.09. 21:18 <<<<<<<<======================
+
+   - Доменный анализ 25:55
+   - Причина / следствие 28:48
+   - Состояние и переходы
+**************************************
+
+
+
+P.S. Развернутая информация по каждой технике конспектирована в txt файл: 
+"2. Техники тест-дизайна Леша Маршал"
+Адрес файла: 
+(D:\TESTING\Vadim_Ksendzov\Homeworks_28gr\0_Theory\Репозитории_Theory\Theory\Техники тест-дизайна).
+
+
+*Задача №2
+АНАЛИЗ КНИНГИ ПО ИДЕНТИЧНЫМ ПОНЯТИЯМ:
+Если искать по слову "техник" в книге Куликова, то есть темы похожие на "техники тест-дизайна":
+2.3.2.13. Классификация по техникам и подходам
+Совпадения с видео Маршала, точно описывающее смысл техники тест-дизайна:
+
+2.7. Примеры использования различных техник тестирования
+Совпадения с видео Маршала, точно описывающее смысл техники тест-дизайна:
+
+**************************************
+*Задача №3
+Результаты компиляции:
+1) Большинство совпадений с видеоуроком нашлось по таблице в книге Куликова:
+Рисунок 2.3.k — Классификация тестирования согласно ISO/IEC/IEEE 29119-4 (русскоязычный вариант) - 102стр.
+
+2) !!! Что такое техники тест-дизайна?  
+Гугл переводчик => техника тест-дизайна  => test design technique
+===>>> Результаты поиска по слову "test design techniq" в книге:
+
+1) 53 Test plan. - 32стр. ???
+*A document describing the scope, approach, resources and schedule of intended test activities. It identifies amongst
+others test items, the features to be tested, the testing tasks, who will do each task, degree of tester independence, the test
+environment, the test design techniques and entry and exit criteria to be used, and the rationale for their choice, and any risks
+requiring contingency planning. It is a record of the test planning process. [ISTQB Glossary]
+*Документ, описывающий объем, подход, ресурсы и график предполагаемых тестовых действий. Он определяет среди
+другие элементы тестирования, тестируемые функции, задачи тестирования, кто будет выполнять каждую задачу, степень независимости тестировщика, тест
+среду, используемые методы разработки тестов и критерии входа и выхода, а также обоснование их выбора и любые риски.
+требующие планирования на случай непредвиденных обстоятельств. Это запись процесса планирования тестирования. [Глоссарий ISTQB]
+
+2) 146 Negative testing. - 79стр. Негативное тестирование
+*Tests aimed at showing that a component or system does not work. Negative testing is related to the testers’
+attitude rather than a specific test approach or test design technique, e.g. testing with invalid input values or exceptions. [ISTQB
+Glossary]
+*Тесты, направленные на то, чтобы показать, что компонент или система не работает. Отрицательное тестирование связано с
+отношение, а не конкретный подход к тестированию или метод разработки тестов, например. тестирование с недопустимыми входными значениями или исключениями. [ISTQB
+Глоссарий]
+
+3) 153 Exploratory testing. - 82стр. Исследовательское тестирование
+An informal test design technique where the tester actively controls the design of the tests as those tests
+are performed and uses information gained while testing to design new and better tests. [ISTQB Glossary]
+
+4) 155 Checklist-based Testing - 82стр ???
+An experience-based test design technique whereby the experienced tester uses a high-level list of
+items to be noted, checked, or remembered, or a set of rules or criteria against which a product has to be verified. [ISTQB
+Glossary]
+
+5) 157 Ad hoc testing - 82стр ???
+Testing carried out informally; no formal test preparation takes place, no recognized test design technique is
+used, there are no expectations for results and arbitrariness guides the test execution activity. [ISTQB Glossary]
+
+6) 223 Error Guessing. - 91стр ???
+A test design technique where the experience of the tester is used to anticipate what defects might be present
+in the component or system under test as a result of errors made, and to design tests specifically to expose them. [ISTQB
+Glossary]
+
+7) 228 Equivalence partitioning - 91стр. ???
+A black box test design technique in which test cases are designed to execute representatives from
+equivalence partitions. In principle test cases are designed to cover each partition at least once. [ISTQB Glossary]
+
+8) 229 Boundary value analysis. - 92стр Анализ граничных значений
+A black box test design technique in which test cases are designed based on boundary values (input
+values or output values which are on the edge of an equivalence partition or at the smallest incremental distance on either side
+of an edge, for example the minimum or maximum value of a range). [ISTQB Glossary]
+
+9) 230 Domain analysis. - 92стр. ???
+A black box test design technique that is used to identify efficient and effective test cases when multiple variables can or should be tested together. It builds on and generalizes equivalence partitioning and boundary values analysis. [ISTQB
+Glossary]
+
+10) 231 Pairwise testing. - 92стр Попарное тестирование
+A black box test design technique in which test cases are designed to execute all possible discrete combinations
+of each pair of input parameters. [ISTQB Glossary]
+
+11) 232 N-wise testing - 92стр ???
+A black box test design technique in which test cases are designed to execute all possible discrete combinations
+of any set of n input parameters. [ISTQB Glossary]
+
+12) 239 Data Flow Testing - 93стр
+A white box test design technique in which test cases are designed to execute definition-use pairs of variables.
+[ISTQB Glossary]
+
+13) 240 State Transition Testing. - 94стр 
+A black box test design technique in which test cases are designed to execute valid and invalid state
+transitions. [ISTQB Glossary]
+
+14) 246 Statement Testing. - 94стр
+A white box test design technique in which test cases are designed to execute statements (statement is an
+entity in a programming language, which is typically the smallest indivisible unit of execution). [ISTQB Glossary]
+
+15) 247 Branch Testing. - 94стр
+A white box test design technique in which test cases are designed to execute branches (branch is a basic block
+that can be selected for execution based on a program construct in which one of two or more alternative program paths is
+available, e.g. case, jump, go to, if-then-else.). [ISTQB Glossary]
+
+
+16) 248 Condition Testing. - 95стр
+A white box test design technique in which test cases are designed to execute condition outcomes (condition
+is a logical expression that can be evaluated as True or False, e.g. A > B). [ISTQB Glossary]
+
+17) 249 Multiple Condition Testing. - 95стр
+A white box test design technique in which test cases are designed to execute combinations of single
+condition outcomes (within one statement). [ISTQB Glossary]
+
+18) 251 Decision Testing. - 95стр
+A white box test design technique in which test cases are designed to execute decision outcomes (decision is
+program point at which the control flow has two or more alternative routes, e.g. a node with two or more links to separate
+branches). [ISTQB Glossary]
+
+19) 252 Path testing. - 95стр
+A white box test design technique in which test cases are designed to execute paths. [ISTQB Glossary]
+
+20) 254 Decision Table Testing - 96стр
+A black box test design technique in which test cases are designed to execute the combinations of
+inputs and/or stimuli (causes) shown in a decision table (a table showing combinations of inputs and/or stimuli (causes) with their
+associated outputs and/or actions (effects), which can be used to design test cases). [ISTQB Glossary]
+
+21) 256 Use case testing. - 96стр
+A black box test design technique in which test cases are designed to execute scenarios of use cases. [ISTQB
+Glossary]
+
+22) 257 User story testing. - 97стр
+A black box test design technique in which test cases are designed based on user stories to verify their correct
+implementation. [ISTQB Glossary]
+
+23) 259 Random testing. - 97стр
+A black box test design technique where test cases are selected, possibly using a pseudo-random generation
+algorithm, to match an operational profile. This technique can be used for testing non-functional attributes such as reliability and
+performance. [ISTQB Glossary]
+
+24) 267 Classification tree method. - 104стр
+A black box test design technique in which test cases, described by means of a classification tree,
+are designed to execute combinations of representatives of input and/or output domains. [ISTQB Glossary]
+
+25) 268 Syntax testing - 104стр
+A black box test design technique in which test cases are designed based upon the definition of the input domain
+and/or output domain. [ISTQB Glossary]
+
+26) 273 Cause-effect graphing. - 104стр
+A black box test design technique in which test cases are designed from cause-effect graphs (a graphical
+representation of inputs and/or stimuli (causes) with their associated outputs (effects), which can be used to design test cases).
+[ISTQB Glossary]
+
+27) 274 Data flow testing. - 105стр
+A white box test design technique in which test cases are designed to execute definition-use pairs of variables.
+[ISTQB Glossary]
+
+28) 327 Test plan. - 208стр
+A document describing the scope, approach, resources and schedule of intended test activities. It identifies amongst
+others test items, the features to be tested, the testing tasks, who will do each task, degree of tester independence, the test
+environment, the test design techniques and entry and exit criteria to be used, and the rationale for their choice, and any risks
+requiring contingency planning. It is a record of the test planning process. [ISTQB Glossary]
+
+29) 329 Test approach. - 209стр
+The implementation of the test strategy for a specific project. It typically includes the decisions made that follow
+based on the (test) project’s goal and the risk assessment carried out, starting points regarding the test process, the test design
+techniques to be applied, exit criteria and test types to be performed. [ISTQB Glossary]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!! Что такое тест-дизайн? ===>>> Поиск по слову "test design" в книге:
+2.3.2.1. Схема классификации тестирования   ===>>> 66стр. ===>>> Настоятельно рекомендуется в дополнение к материалу этой главы прочесть:
+классическую книгу Ли Коупленда «Практическое руководство поразработке тестов» (Lee Copeland, «A Practitioner's Guide to Software Test Design»).
+
+
+
+
+
