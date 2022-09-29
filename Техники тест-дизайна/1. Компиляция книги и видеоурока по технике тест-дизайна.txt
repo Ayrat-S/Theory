@@ -88,61 +88,61 @@ P.S. Развернутая информация по каждой техник�
 Рисунок 2.3.k — Классификация тестирования согласно ISO/IEC/IEEE 29119-4 (русскоязычный вариант) - 102стр.
 
 2) !!! Что такое техники тест-дизайна?  
-Гугл переводчик => техника тест-дизайна  => test design technique
+Гугл переводчик => техника тест-дизайна  => test design technique = > методы разработки тестов
 ===>>> Результаты поиска по слову "test design techniq" в книге:
 
-1) 53 Test plan. - 32стр. ???
-*A document describing the scope, approach, resources and schedule of intended test activities. It identifies amongst
+1) 53 Test plan. - 32стр. Тестовый план
+A document describing the scope, approach, resources and schedule of intended test activities. It identifies amongst
 others test items, the features to be tested, the testing tasks, who will do each task, degree of tester independence, the test
 environment, the test design techniques and entry and exit criteria to be used, and the rationale for their choice, and any risks
 requiring contingency planning. It is a record of the test planning process. [ISTQB Glossary]
-*Документ, описывающий объем, подход, ресурсы и график предполагаемых тестовых действий. Он определяет среди
-другие элементы тестирования, тестируемые функции, задачи тестирования, кто будет выполнять каждую задачу, степень независимости тестировщика, тест
-среду, используемые методы разработки тестов и критерии входа и выхода, а также обоснование их выбора и любые риски.
-требующие планирования на случай непредвиденных обстоятельств. Это запись процесса планирования тестирования. [Глоссарий ISTQB]
+Документ, описывающий объем, подход, ресурсы и график предполагаемых тестовых действий. Среди прочего, он определяет элементы тестирования, тестируемые функции, задачи тестирования, тех, кто будет выполнять каждую задачу, степень независимости тестировщика, тестовую среду, методы разработки тестов и используемые критерии входа и выхода, а также обоснование их выбор и любые риски, требующие планирования на случай непредвиденных обстоятельств. Это запись процесса планирования тестирования. [Глоссарий ISTQB]
 
 2) 146 Negative testing. - 79стр. Негативное тестирование
-*Tests aimed at showing that a component or system does not work. Negative testing is related to the testers’
-attitude rather than a specific test approach or test design technique, e.g. testing with invalid input values or exceptions. [ISTQB
-Glossary]
-*Тесты, направленные на то, чтобы показать, что компонент или система не работает. Отрицательное тестирование связано с
-отношение, а не конкретный подход к тестированию или метод разработки тестов, например. тестирование с недопустимыми входными значениями или исключениями. [ISTQB
-Глоссарий]
+Tests aimed at showing that a component or system does not work. Negative testing is related to the testers’
+attitude rather than a specific test approach or test design technique, e.g. testing with invalid input values or exceptions. [ISTQB Glossary]
+Тесты, направленные на то, чтобы показать, что компонент или система не работает. Отрицательное тестирование связано с отношением тестировщиков, а не с конкретным подходом к тестированию или техникой разработки тестов, например. тестирование с недопустимыми входными значениями или исключениями. [Глоссарий ISTQB]
 
-3) 153 Exploratory testing. - 82стр. Исследовательское тестирование
+3) 153 Exploratory testing. - 82стр. Исследовательское тестирование. An informal test design technique.
 An informal test design technique where the tester actively controls the design of the tests as those tests
 are performed and uses information gained while testing to design new and better tests. [ISTQB Glossary]
+Неформальный метод разработки тестов, при котором тестировщик активно контролирует дизайн тестов по мере их выполнения и использует информацию, полученную во время тестирования, для разработки новых и лучших тестов. [Глоссарий ISTQB]
 
-4) 155 Checklist-based Testing - 82стр ???
+4) 155 Checklist-based Testing - 82стр. Тестирование на основе чек-листов. An experience-based test design technique.
 An experience-based test design technique whereby the experienced tester uses a high-level list of
-items to be noted, checked, or remembered, or a set of rules or criteria against which a product has to be verified. [ISTQB
-Glossary]
+items to be noted, checked, or remembered, or a set of rules or criteria against which a product has to be verified. [ISTQB Glossary]
+Метод проектирования тестирования, основанный на опыте, при котором опытный тестировщик использует высокоуровневый список элементов, которые необходимо отметить, проверить или запомнить, или набор правил или критериев, по которым должен быть проверен продукт. [Глоссарий ISTQB]
 
-5) 157 Ad hoc testing - 82стр ???
+5) 157 Ad hoc testing - 82стр. Свободное (интуитивное) тестирование. ???
 Testing carried out informally; no formal test preparation takes place, no recognized test design technique is
 used, there are no expectations for results and arbitrariness guides the test execution activity. [ISTQB Glossary]
+Тестирование проводится неофициально; формальной подготовки к тесту не происходит, не используется признанная техника разработки тестов, нет ожиданий результатов, и деятельность по выполнению тестов определяется произволом. [Глоссарий ISTQB]
 
-6) 223 Error Guessing. - 91стр ???
+6) 223 Error Guessing. - 91стр. Тестирование предугадыванием ошибок. A test design technique.
 A test design technique where the experience of the tester is used to anticipate what defects might be present
 in the component or system under test as a result of errors made, and to design tests specifically to expose them. [ISTQB
 Glossary]
+Метод проектирования тестирования, при котором опыт тестировщика используется для прогнозирования дефектов, которые могут присутствовать в тестируемом компоненте или системе в результате допущенных ошибок, и для разработки тестов специально для их выявления. [Глоссарий ISTQB]
 
-7) 228 Equivalence partitioning - 91стр. ???
+7) 228 Equivalence partitioning - 91стр. Тестирование на основе классов эквивалентности. A black box test design technique.
 A black box test design technique in which test cases are designed to execute representatives from
 equivalence partitions. In principle test cases are designed to cover each partition at least once. [ISTQB Glossary]
+Метод проектирования тестов черного ящика, в котором тестовые примеры предназначены для выполнения представителей из разделов эквивалентности. В принципе тестовые примеры предназначены для охвата каждого раздела хотя бы один раз. [Глоссарий ISTQB]
 
-8) 229 Boundary value analysis. - 92стр Анализ граничных значений
+8) 229 Boundary value analysis. - 92стр. Тестирование на основе граничных условий. A black box test design technique.
 A black box test design technique in which test cases are designed based on boundary values (input
 values or output values which are on the edge of an equivalence partition or at the smallest incremental distance on either side
 of an edge, for example the minimum or maximum value of a range). [ISTQB Glossary]
+Метод проектирования тестов «черный ящик», в котором тестовые примеры разрабатываются на основе граничных значений (входные значения или выходные значения, которые находятся на краю раздела эквивалентности или на наименьшем инкрементном расстоянии по обе стороны от края, например минимальное или максимальное). значение диапазона). [Глоссарий ISTQB]
 
-9) 230 Domain analysis. - 92стр. ???
-A black box test design technique that is used to identify efficient and effective test cases when multiple variables can or should be tested together. It builds on and generalizes equivalence partitioning and boundary values analysis. [ISTQB
-Glossary]
+9) 230 Domain analysis. - 92стр. Доменное тестирование (domain analysis, domain testing). A black box test design technique.
+A black box test design technique that is used to identify efficient and effective test cases when multiple variables can or should be tested together. It builds on and generalizes equivalence partitioning and boundary values analysis. [ISTQB Glossary]
+Техника разработки тестов «черный ящик», которая используется для выявления эффективных и действенных тестовых случаев, когда несколько переменных могут или должны тестироваться вместе. Он основывается и обобщает разделение эквивалентности и анализ граничных значений. [Глоссарий ISTQB]
 
-10) 231 Pairwise testing. - 92стр Попарное тестирование
+10) 231 Pairwise testing. - 92стр. Попарное тестирование. A black box test design technique.
 A black box test design technique in which test cases are designed to execute all possible discrete combinations
 of each pair of input parameters. [ISTQB Glossary]
+Метод проектирования тестов «черный ящик», в котором тестовые примеры предназначены для выполнения всех возможных дискретных комбинаций каждой пары входных параметров. [Глоссарий ISTQB]
 
 11) 232 N-wise testing - 92стр ???
 A black box test design technique in which test cases are designed to execute all possible discrete combinations
