@@ -143,90 +143,112 @@ A black box test design technique that is used to identify efficient and effecti
 A black box test design technique in which test cases are designed to execute all possible discrete combinations
 of each pair of input parameters. [ISTQB Glossary]
 Метод проектирования тестов «черный ящик», в котором тестовые примеры предназначены для выполнения всех возможных дискретных комбинаций каждой пары входных параметров. [Глоссарий ISTQB]
+P.S.
+Попарное тестирование => 92стр.
+"Эта техника является частным случаем N-комбинационного тестирования (n-wise testing232) и позволяет существенно сократить трудозатраты на тестирование (а иногда и вовсе сделать возможным тестирование в случае, когда количество «всех комбинаций всех значений всех параметров» измеряется миллиардами)."
+"Попарное тестирование (pairwise testing231) — это НЕ парное тестирование (pair testing233)!"
 
-11) 232 N-wise testing - 92стр ???
+11) 232 N-wise testing - 92стр. N-комбинационное тестирование. A black box test design technique.
 A black box test design technique in which test cases are designed to execute all possible discrete combinations
 of any set of n input parameters. [ISTQB Glossary]
+Метод проектирования тестов «черный ящик», в котором тестовые примеры предназначены для выполнения всех возможных дискретных комбинаций любого набора из n входных параметров. [Глоссарий ISTQB]
 
-12) 239 Data Flow Testing - 93стр
+12) 239 Data Flow Testing - 93стр. Тестирование по потоку данных. A white box test design technique.
 A white box test design technique in which test cases are designed to execute definition-use pairs of variables.
 [ISTQB Glossary]
+Техника разработки тестов белого ящика, в которой тестовые примеры предназначены для выполнения пар переменных определение-использование. [Глоссарий ISTQB]
 
-13) 240 State Transition Testing. - 94стр 
+13) 240 State Transition Testing. - 94стр. Тестирование по диаграмме или таблице состояний. A black box test design technique.
 A black box test design technique in which test cases are designed to execute valid and invalid state
 transitions. [ISTQB Glossary]
+Метод проектирования тестов «черный ящик», в котором тестовые примеры предназначены для выполнения допустимых и недопустимых переходов между состояниями. [Глоссарий ISTQB]
 
-14) 246 Statement Testing. - 94стр
+14) 246 Statement Testing. - 94стр. Тестирование на основе выражений. A white box test design technique.
 A white box test design technique in which test cases are designed to execute statements (statement is an
 entity in a programming language, which is typically the smallest indivisible unit of execution). [ISTQB Glossary]
+Метод проектирования тестов белого ящика, в котором тестовые примеры предназначены для выполнения операторов (оператор — это сущность в языке программирования, которая обычно является наименьшей неделимой единицей выполнения). [Глоссарий ISTQB]
 
-15) 247 Branch Testing. - 94стр
+15) 247 Branch Testing. - 94стр. Тестирование на основе ветвей. A white box test design technique.
 A white box test design technique in which test cases are designed to execute branches (branch is a basic block
 that can be selected for execution based on a program construct in which one of two or more alternative program paths is
 available, e.g. case, jump, go to, if-then-else.). [ISTQB Glossary]
+Техника разработки тестов белого ящика, в которой тестовые примеры предназначены для выполнения ветвей (ветвь — это базовый блок, который может быть выбран для выполнения на основе конструкции программы, в которой доступен один из двух или более альтернативных путей программы, например case, jump, перейти к, если-то-иначе.). [Глоссарий ISTQB]
 
-
-16) 248 Condition Testing. - 95стр
+16) 248 Condition Testing. - 95стр. Тестирование на основе условий. A white box test design technique.
 A white box test design technique in which test cases are designed to execute condition outcomes (condition
 is a logical expression that can be evaluated as True or False, e.g. A > B). [ISTQB Glossary]
+Техника разработки тестов белого ящика, в которой тестовые наборы предназначены для выполнения результатов условий (условие — это логическое выражение, которое может быть оценено как True или False, например, A > B). [Глоссарий ISTQB]
 
-17) 249 Multiple Condition Testing. - 95стр
+17) 249 Multiple Condition Testing. - 95стр. Тестирование на основе комбинаций условий. A white box test design technique.
 A white box test design technique in which test cases are designed to execute combinations of single
 condition outcomes (within one statement). [ISTQB Glossary]
+Метод проектирования тестов белого ящика, в котором тестовые примеры предназначены для выполнения комбинаций результатов одного условия (в одном операторе). [Глоссарий ISTQB]
 
-18) 251 Decision Testing. - 95стр
+18) 251 Decision Testing. - 95стр. Тестирование на основе решений. A white box test design technique.
 A white box test design technique in which test cases are designed to execute decision outcomes (decision is
 program point at which the control flow has two or more alternative routes, e.g. a node with two or more links to separate
 branches). [ISTQB Glossary]
+Метод проектирования тестов белого ящика, в котором тестовые примеры предназначены для выполнения результатов принятия решений (решение — это программная точка, в которой поток управления имеет два или более альтернативных маршрута, например, узел с двумя или более ссылками на отдельные ветви). [Глоссарий ISTQB]
 
-19) 252 Path testing. - 95стр
+19) 252 Path testing. - 95стр. Тестирование на основе путей. A white box test design technique.
 A white box test design technique in which test cases are designed to execute paths. [ISTQB Glossary]
+Техника разработки тестов белого ящика, в которой тестовые наборы предназначены для выполнения путей. [ISTQB Glossary]
 
-20) 254 Decision Table Testing - 96стр
+20) 254 Decision Table Testing - 96стр. Тестирование по таблице принятия решений. A black box test design technique.
 A black box test design technique in which test cases are designed to execute the combinations of
 inputs and/or stimuli (causes) shown in a decision table (a table showing combinations of inputs and/or stimuli (causes) with their
 associated outputs and/or actions (effects), which can be used to design test cases). [ISTQB Glossary]
+Метод проектирования тестов «черный ящик», в котором тестовые примеры предназначены для выполнения комбинаций входных данных и/или стимулов (причин), показанных в таблице решений (таблица, показывающая комбинации входных данных и/или стимулов (причин) с соответствующими выходными данными и/или или действия (эффекты), которые можно использовать для разработки тестовых случаев). [ISTQB Glossary]
 
-21) 256 Use case testing. - 96стр
+21) 256 Use case testing. - 96стр. Тестирование на основе вариантов использования. A black box test design technique.
 A black box test design technique in which test cases are designed to execute scenarios of use cases. [ISTQB
 Glossary]
+Метод проектирования тестов «черный ящик», в котором тестовые примеры предназначены для выполнения сценариев вариантов использования. [ISTQB Glossary]
 
-22) 257 User story testing. - 97стр
+22) 257 User story testing. - 97стр. Тестирование на основе пользовательских историй. A black box test design technique.
 A black box test design technique in which test cases are designed based on user stories to verify their correct
 implementation. [ISTQB Glossary]
+Техника разработки тестов «черный ящик», при которой тестовые сценарии разрабатываются на основе пользовательских историй для проверки их правильной реализации. [ISTQB Glossary]
 
-23) 259 Random testing. - 97стр
+23) 259 Random testing. - 97стр. Тестирование на основе случайных данных. A black box test design technique.
 A black box test design technique where test cases are selected, possibly using a pseudo-random generation
 algorithm, to match an operational profile. This technique can be used for testing non-functional attributes such as reliability and
 performance. [ISTQB Glossary]
+Техника разработки тестов «черный ящик», при которой тестовые случаи выбираются, возможно, с использованием алгоритма псевдослучайной генерации, чтобы соответствовать рабочему профилю. Этот метод можно использовать для тестирования нефункциональных атрибутов, таких как надежность и производительность.
 
-24) 267 Classification tree method. - 104стр
+24) 267 Classification tree method. - 104стр. Тестирование на основе дерева классификаций. A black box test design technique.
 A black box test design technique in which test cases, described by means of a classification tree,
 are designed to execute combinations of representatives of input and/or output domains. [ISTQB Glossary]
+Метод проектирования тестов «черный ящик», в котором тестовые примеры, описанные с помощью дерева классификации, предназначены для выполнения комбинаций представителей входных и/или выходных доменов. [ISTQB Glossary]
 
-25) 268 Syntax testing - 104стр
+25) 268 Syntax testing - 104стр. Тестирование на основе синтаксиса. A black box test design technique.
 A black box test design technique in which test cases are designed based upon the definition of the input domain
 and/or output domain. [ISTQB Glossary]
+Метод проектирования тестов «черный ящик», в котором тестовые примеры разрабатываются на основе определения входной области и/или области вывода. [ISTQB Glossary]
 
-26) 273 Cause-effect graphing. - 104стр
+26) 273 Cause-effect graphing. - 104стр. Тестирование по графу причинно-следственных связей. A black box test design technique.
 A black box test design technique in which test cases are designed from cause-effect graphs (a graphical
 representation of inputs and/or stimuli (causes) with their associated outputs (effects), which can be used to design test cases).
 [ISTQB Glossary]
+Метод проектирования тестов «черный ящик», в котором тестовые сценарии разрабатываются на основе графиков причинно-следственных связей (графическое представление входных данных и/или стимулов (причин) с соответствующими выходными данными (эффектами), которые можно использовать для разработки тестовых сценариев). [ISTQB Glossary]
 
-27) 274 Data flow testing. - 105стр
+27) 274 Data flow testing. - 105стр. Тестирование по потоку данных. A white box test design technique.
 A white box test design technique in which test cases are designed to execute definition-use pairs of variables.
 [ISTQB Glossary]
+Техника разработки тестов белого ящика, в которой тестовые примеры предназначены для выполнения пар переменных определение-использование. [ISTQB Glossary]
 
-28) 327 Test plan. - 208стр
+28) 327 Test plan. - 208стр. Тест-план. 
 A document describing the scope, approach, resources and schedule of intended test activities. It identifies amongst
 others test items, the features to be tested, the testing tasks, who will do each task, degree of tester independence, the test
 environment, the test design techniques and entry and exit criteria to be used, and the rationale for their choice, and any risks
 requiring contingency planning. It is a record of the test planning process. [ISTQB Glossary]
+Документ, описывающий объем, подход, ресурсы и график предполагаемых тестовых действий. Среди прочего, он определяет элементы тестирования, тестируемые функции, задачи тестирования, тех, кто будет выполнять каждую задачу, степень независимости тестировщика, тестовую среду, методы разработки тестов и используемые критерии входа и выхода, а также обоснование их выбор и любые риски, требующие планирования на случай непредвиденных обстоятельств. Это запись процесса планирования тестирования. [ISTQB Glossary]
 
-29) 329 Test approach. - 209стр
+29) 329 Test approach. - 209стр. Тестовые подходы. 
 The implementation of the test strategy for a specific project. It typically includes the decisions made that follow
 based on the (test) project’s goal and the risk assessment carried out, starting points regarding the test process, the test design
 techniques to be applied, exit criteria and test types to be performed. [ISTQB Glossary]
+Реализация стратегии тестирования для конкретного проекта. Обычно он включает в себя решения, принятые на основе цели (тестового) проекта и проведенной оценки рисков, отправные точки в отношении процесса тестирования, применяемые методы разработки тестов, критерии выхода и типы тестов, которые необходимо выполнить. [ISTQB Glossary]
 
 
 
