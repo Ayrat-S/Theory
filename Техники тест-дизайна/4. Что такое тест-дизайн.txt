@@ -1,0 +1,18 @@
+
+ТЕСТ-ДИЗАЙН
+ISTQB Glossary
+https://istqb-glossary.page/test-design/
+Test Design - The process of transforming general test objectives into tangible test conditions and test cases.
+Процесс преобразования общих целей тестирования в осязаемые условия тестирования и тестовые примеры.
+
+ТЕХНИКА ТЕСТ-ДИЗАЙНА
+ISTQB Glossary
+https://istqb-glossary.page/test-design-technique/
+Test Design Technique - Procedure used to derive and/or select test cases.
+Техника разработки тестов — процедура, используемая для получения и/или выбора тестовых случаев.
+
+
+
+
+
+

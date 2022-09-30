@@ -137,12 +137,11 @@ of an edge, for example the minimum or maximum value of a range). [ISTQB Glossar
 Метод проектирования тестов «черный ящик», в котором тестовые примеры разрабатываются на основе граничных значений (входные значения или выходные значения, которые находятся на краю раздела эквивалентности или на наименьшем инкрементном расстоянии по обе стороны от края, например минимальное или максимальное). значение диапазона). [Глоссарий ISTQB]
 
 9) 230 Domain analysis. - 92стр. Доменное тестирование (domain analysis, domain testing). A black box test design technique.
-A black box test design technique that is used to identify efficient and effective test cases when multiple variables can or should be tested together. It builds on and generalizes equivalence partitioning and boundary values analysis. [ISTQB Glossary]
+A black box test design technique that is used to identify efficient and effective test cases when multiple variables can or should be tested together. It builds on and generalizes equivalence partitioning and boundary values analysis.[ISTQB Glossary]
 Техника разработки тестов «черный ящик», которая используется для выявления эффективных и действенных тестовых случаев, когда несколько переменных могут или должны тестироваться вместе. Он основывается и обобщает разделение эквивалентности и анализ граничных значений. [Глоссарий ISTQB]
 
 10) 231 Pairwise testing. - 92стр. Попарное тестирование. A black box test design technique.
-A black box test design technique in which test cases are designed to execute all possible discrete combinations
-of each pair of input parameters. [ISTQB Glossary]
+A black box test design technique in which test cases are designed to execute all possible discrete combinations of each pair of input parameters. [ISTQB Glossary]
 Метод проектирования тестов «черный ящик», в котором тестовые примеры предназначены для выполнения всех возможных дискретных комбинаций каждой пары входных параметров. [Глоссарий ISTQB]
 P.S.
 Попарное тестирование => 92стр.
@@ -160,8 +159,7 @@ A white box test design technique in which test cases are designed to execute de
 Техника разработки тестов белого ящика, в которой тестовые примеры предназначены для выполнения пар переменных определение-использование. [Глоссарий ISTQB]
 
 13) 240 State Transition Testing. - 94стр. Тестирование по диаграмме или таблице состояний. A black box test design technique.
-A black box test design technique in which test cases are designed to execute valid and invalid state
-transitions. [ISTQB Glossary]
+A black box test design technique in which test cases are designed to execute valid and invalid state transitions. [ISTQB Glossary]
 Метод проектирования тестов «черный ящик», в котором тестовые примеры предназначены для выполнения допустимых и недопустимых переходов между состояниями. [Глоссарий ISTQB]
 
 14) 246 Statement Testing. - 94стр. Тестирование на основе выражений. A white box test design technique.
@@ -228,9 +226,7 @@ and/or output domain. [ISTQB Glossary]
 Метод проектирования тестов «черный ящик», в котором тестовые примеры разрабатываются на основе определения входной области и/или области вывода. [ISTQB Glossary]
 
 26) 273 Cause-effect graphing. - 104стр. Тестирование по графу причинно-следственных связей. A black box test design technique.
-A black box test design technique in which test cases are designed from cause-effect graphs (a graphical
-representation of inputs and/or stimuli (causes) with their associated outputs (effects), which can be used to design test cases).
-[ISTQB Glossary]
+A black box test design technique in which test cases are designed from cause-effect graphs (a graphical representation of inputs and/or stimuli (causes) with their associated outputs (effects), which can be used to design test cases).[ISTQB Glossary]
 Метод проектирования тестов «черный ящик», в котором тестовые сценарии разрабатываются на основе графиков причинно-следственных связей (графическое представление входных данных и/или стимулов (причин) с соответствующими выходными данными (эффектами), которые можно использовать для разработки тестовых сценариев). [ISTQB Glossary]
 
 27) 274 Data flow testing. - 105стр. Тестирование по потоку данных. A white box test design technique.
