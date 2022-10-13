@@ -32,8 +32,9 @@ A black box test design technique.
 Поскольку классы эквивалентности всегда имеют диапазоны, всегда есть значения на границе этих диапазонов.
 Граница в нашем примере будет 18.
 Продолжить
-
-
+ISTQB Glossary: Boundary Value
+An input value or output value which is on the edge of an equivalence partition or at the smallest incremental distance on either side of an edge, for example the minimum or maximum value of a range.
+Входное значение или выходное значение, которое находится на границе раздела эквивалентности или на наименьшем приращении по обе стороны от границы, например минимальное или максимальное значение диапазона.
 
 
 
